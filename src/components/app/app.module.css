@@ -1,0 +1,9 @@
+.app {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  min-width: 320px;
+  min-height: 980px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
