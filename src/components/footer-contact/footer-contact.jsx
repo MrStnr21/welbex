@@ -6,18 +6,21 @@ import logoPhone from "../../images/Phone.svg";
 
 export function FooterContact() {
   return (
-    <div className={StylesFooterContact.container}>
-      <h2 className={StylesFooterContact.title}>Контакты</h2>
-      <ul className={StylesFooterContact.list}>
-        <li className={StylesFooterContact.item}>
-          <a className={`${StylesFooterContact.link} ${StylesFooterContact.phone}`} href="">
+    <div className={`${StylesFooterContact.container}`}>
+      <h2 className={`${StylesFooterContact.title}`}>Контакты</h2>
+      <ul className={`${StylesFooterContact.list}`}>
+        <li className={`${StylesFooterContact.item}`}>
+          <a
+            className={`${StylesFooterContact.link} ${StylesFooterContact.phone}`}
+            href="##"
+          >
             +7 555 555-55-55
           </a>
         </li>
-        <li className={StylesFooterContact.itemLogo}>
-          <ul className={StylesFooterContact.listLogo}>
+        <li className={`${StylesFooterContact.itemLogo}`}>
+          <ul className={`${StylesFooterContact.listLogo}`}>
             <li>
-              <a>
+              <a href="##">
                 <img
                   className={`${StylesFooterContact.logo}`}
                   src={logoTelegram}
@@ -26,7 +29,7 @@ export function FooterContact() {
               </a>
             </li>
             <li>
-              <a>
+              <a href="##">
                 <img
                   className={`${StylesFooterContact.logo}`}
                   src={logoPhone}
@@ -35,7 +38,7 @@ export function FooterContact() {
               </a>
             </li>
             <li>
-              <a>
+              <a href="##">
                 <img
                   className={`${StylesFooterContact.logo}`}
                   src={logoWhatsApp}
@@ -45,9 +48,9 @@ export function FooterContact() {
             </li>
           </ul>
         </li>
-        <li className={StylesFooterContact.item}>
+        <li className={`${StylesFooterContact.item}`}>
           <a
-            className={StylesFooterContact.link}
+            className={`${StylesFooterContact.link}`}
             href="https://yandex.ru/maps/213/moscow/house/putevoy_proyezd_3s1/Z04YcwFpQUUHQFtvfXR2eXRrbQ==/inside/?ll=37.569800%2C55.878890&tab=inside&z=16"
             target="_ blank"
           >

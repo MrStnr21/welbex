@@ -6,15 +6,15 @@ import { FooterContact } from "../footer-contact/footer-contact";
 
 export function AppFooter() {
   return (
-    <footer className={StylesAppFooter.footer}>
+    <footer className={`${StylesAppFooter.footer}`}>
       <FooterAbout />
       <FooterMenu />
       <FooterContact />
-      <div className={StylesAppFooter.info}>
-        <p className={StylesAppFooter.copyright}>
+      <div className={`${StylesAppFooter.info}`}>
+        <p className={`${StylesAppFooter.copyright}`}>
           ©WELBEX 2022. Все права защищены.
         </p>
-        <a className={StylesAppFooter.confidential} href="">
+        <a className={`${StylesAppFooter.confidential}`} href="##">
           Политика конфиденциальности
         </a>
       </div>

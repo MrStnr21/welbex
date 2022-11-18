@@ -7,10 +7,10 @@ import logoPhone from "../../images/Phone.svg";
 export function HeaderContact() {
   return (
     <div className={`${StylesHeaderContact.container}`}>
-      <a className={`${StylesHeaderContact.phoneNumber}`}>+7 555 555-55-55</a>
+      <a className={`${StylesHeaderContact.phoneNumber}`} href="##">+7 555 555-55-55</a>
       <ul className={`${StylesHeaderContact.list}`}>
         <li>
-          <a>
+          <a href="##">
             <img
               className={`${StylesHeaderContact.logo}`}
               src={logoTelegram}
@@ -19,7 +19,7 @@ export function HeaderContact() {
           </a>
         </li>
         <li>
-          <a>
+          <a href="##">
             <img
               className={`${StylesHeaderContact.logo}`}
               src={logoPhone}
@@ -28,7 +28,7 @@ export function HeaderContact() {
           </a>
         </li>
         <li>
-          <a>
+          <a href="##">
             <img
               className={`${StylesHeaderContact.logo}`}
               src={logoWhatsApp}
