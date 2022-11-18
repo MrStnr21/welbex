@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/welbex/static/css/main.073c9b0a.css",
-    "main.js": "/welbex/static/js/main.73cb1db0.js",
+    "main.css": "/welbex/static/css/main.7c12155d.css",
+    "main.js": "/welbex/static/js/main.3a4bd8c2.js",
     "static/js/787.08f9b020.chunk.js": "/welbex/static/js/787.08f9b020.chunk.js",
-    "static/media/logo.svg": "/welbex/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Montserrat-Regular.ttf": "/welbex/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
+    "static/media/Montserrat-Bold.ttf": "/welbex/static/media/Montserrat-Bold.0915f0a8c3367a6d05ec.ttf",
+    "static/media/Montserrat-Light.ttf": "/welbex/static/media/Montserrat-Light.34270926ef09970234f5.ttf",
+    "static/media/background-mobile.png": "/welbex/static/media/background-mobile.89a2bdeb387537463e00.png",
+    "static/media/logo_welbex.svg": "/welbex/static/media/logo_welbex.27138dbd60d7029458ade4c27660c15a.svg",
+    "static/media/WhatsApp.svg": "/welbex/static/media/WhatsApp.cc6738612ffdbd1e04bfbb027a641ee1.svg",
+    "static/media/Phone.svg": "/welbex/static/media/Phone.00ec4c5666a5417bbbacd18048e32ab6.svg",
+    "static/media/red_ball.svg": "/welbex/static/media/red_ball.e0cfd585b5aa004e7899e00ff8c97cf4.svg",
+    "static/media/purple_ball.svg": "/welbex/static/media/purple_ball.5183c75bdfdc477e9148312d22bdcf94.svg",
     "index.html": "/welbex/index.html",
-    "main.073c9b0a.css.map": "/welbex/static/css/main.073c9b0a.css.map",
-    "main.73cb1db0.js.map": "/welbex/static/js/main.73cb1db0.js.map",
+    "static/media/purple_light.svg": "/welbex/static/media/purple_light.f56cd3688ba443c66ab7a533879fed3b.svg",
+    "static/media/red_light.svg": "/welbex/static/media/red_light.3d1d5081f50e92e9bbc9e1f938225a53.svg",
+    "static/media/Telegram.svg": "/welbex/static/media/Telegram.6f6f44ec9535a92a455d90d6f803cb6c.svg",
+    "main.7c12155d.css.map": "/welbex/static/css/main.7c12155d.css.map",
+    "main.3a4bd8c2.js.map": "/welbex/static/js/main.3a4bd8c2.js.map",
     "787.08f9b020.chunk.js.map": "/welbex/static/js/787.08f9b020.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.73cb1db0.js"
+    "static/css/main.7c12155d.css",
+    "static/js/main.3a4bd8c2.js"
   ]
 }
