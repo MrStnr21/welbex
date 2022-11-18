@@ -10,7 +10,7 @@ export function FooterContact() {
       <h2 className={StylesFooterContact.title}>Контакты</h2>
       <ul className={StylesFooterContact.list}>
         <li className={StylesFooterContact.item}>
-          <a className={StylesFooterContact.link} href="">
+          <a className={`${StylesFooterContact.link} ${StylesFooterContact.phone}`} href="">
             +7 555 555-55-55
           </a>
         </li>

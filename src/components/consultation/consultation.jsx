@@ -34,6 +34,26 @@ export function Consultation() {
           <h4 className={`${StylesConsultation.giftsTitle}`}>35 дней</h4>
           <p className={`${StylesConsultation.giftsText}`}>использования CRM</p>
         </div>
+        <div className={`${StylesConsultation.giftsItemMobile}`}>
+          <h4 className={`${StylesConsultation.giftsTitleMobile}`}>
+            <span className={`${StylesConsultation.stick}`}>—</span>Skype аудит
+          </h4>
+        </div>
+        <div className={`${StylesConsultation.giftsItemMobile}`}>
+          <h4 className={`${StylesConsultation.giftsTitleMobile}`}>
+            <span className={`${StylesConsultation.stick}`}>—</span>30 виджетов
+          </h4>
+        </div>
+        <div className={`${StylesConsultation.giftsItemMobile}`}>
+          <h4 className={`${StylesConsultation.giftsTitleMobile}`}>
+            <span className={`${StylesConsultation.stick}`}>—</span>Dashboard
+          </h4>
+        </div>
+        <div className={`${StylesConsultation.giftsItemMobile}`}>
+          <h4 className={`${StylesConsultation.giftsTitleMobile}`}>
+            <span className={`${StylesConsultation.stick}`}>—</span>Месяц аmoCRM
+          </h4>
+        </div>
       </div>
       <button type="button" className={`${StylesConsultation.button}`}>
         Получить консультацию

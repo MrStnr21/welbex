@@ -1,5 +1,5 @@
 .container {
-  margin: 55px 163px 0 0;
+  margin: 55px 160px 0 0;
   padding: 0;
   width: 410px;
 }
@@ -41,12 +41,40 @@
 .list {
   margin: 0;
   padding: 0;
-  height: 150px;
-  width: 410px;
+  height: 142px;
+  max-width: 410px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 52px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    margin: 55px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0;
+    max-width: 274px;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .item {
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 111px;
+  }
+
+  .list {
+    column-gap: 25px;
+  }
 }

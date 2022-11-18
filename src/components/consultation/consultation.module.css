@@ -42,7 +42,10 @@
   margin: 0;
   padding: 0;
   width: 135px;
-  min-height: 68px;
+}
+
+.giftsItemMobile {
+  display: none;
 }
 
 .giftsTitle {
@@ -92,3 +95,70 @@
 .button:hover {
   opacity: 0.7;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0 auto;
+    max-width: 292px;
+  }
+
+  .title {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .titleSpan {
+    letter-spacing: normal;
+    text-transform: lowercase;
+    font-weight: 700;
+  }
+
+  .gifts {
+    margin: 0 auto;
+    row-gap: 14px;
+    column-gap: 2px;
+  }
+
+  .giftsItem {
+    display: none;
+  }
+
+  .giftsItemMobile {
+    display: block;
+  }
+
+  .giftsTitleMobile {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-width: 120px;
+    column-gap: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e4e5ea;
+  }
+
+  .stick {
+    display: block;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .button {
+    display: none;
+  }
+}
+

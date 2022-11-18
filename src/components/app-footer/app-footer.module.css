@@ -1,8 +1,8 @@
 .footer {
   margin: 0 auto;
   padding: 0;
-  width: 1141px;
-  height: 315px;
+  max-width: 1141px;
+  min-height: 315px;
   position: relative;
   display: flex;
 }
@@ -43,4 +43,31 @@
 
 .confidential:hover {
   opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    margin: 0 auto 40px;
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    top: 380px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: 292px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .info {
+    margin: 18px 0 60px;
+    position: relative;
+    top: 0;
+    text-align: left;
+  }
 }

@@ -7,7 +7,7 @@ import redLight from "../../images/red_light.svg";
 
 export function Bubbles() {
   return (
-    <div>
+    <div className={`${StylesBubbles.container}`}>
       <img
         className={`${StylesBubbles.redBall_big}`}
         src={redBall}

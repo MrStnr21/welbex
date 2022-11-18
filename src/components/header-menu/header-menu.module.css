@@ -32,3 +32,23 @@
 .item:hover {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 20px auto 16px;
+  }
+
+  .itemHide {
+    display: none;
+  }
+
+  .list {
+    column-gap: 17px;
+  }
+
+  .item {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+}

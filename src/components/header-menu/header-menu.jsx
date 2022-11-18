@@ -25,7 +25,7 @@ export function HeaderMenu() {
             Кейсы
           </a>
         </li>
-        <li className={`${StylesHeaderMenu.item}`}>
+        <li className={`${StylesHeaderMenu.item} ${StylesHeaderMenu.itemHide}`}>
           <a href="" className={`${StylesHeaderMenu.link}`}>
             Сертификаты
           </a>

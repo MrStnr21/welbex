@@ -46,3 +46,19 @@
   flex-direction: column;
   row-gap: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

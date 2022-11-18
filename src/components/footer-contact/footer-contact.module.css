@@ -1,7 +1,7 @@
 .container {
   margin: 55px 0 0;
   padding: 0;
-  width: 281px;
+  max-width: 281px;
   text-align: right;
 }
 
@@ -71,4 +71,52 @@
 
 .logo:hover {
   opacity: 0.7;
+}
+
+.phone {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    text-align: left;
+  }
+
+  .listLogo {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .listLogo {
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 20px;
+  }
+
+  .list {
+    row-gap: 10px;
+  }
 }
