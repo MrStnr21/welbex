@@ -1,0 +1,64 @@
+.container {
+  margin: 55px 96px 0 0;
+  padding: 0;
+  width: 198px;
+}
+
+.title {
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #656566;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  color: #e4e5ea;
+  text-decoration: none;
+}
+
+.item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  transition: all 0.15s ease-in;
+  cursor: pointer;
+}
+
+.item:hover {
+  opacity: 0.7;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
