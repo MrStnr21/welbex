@@ -1,14 +1,15 @@
-@import url(../src/fonts/fonts.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
 
 body {
   margin: 0;
   background-color: #0e1014;
-  font-family: "Inter", "Montserrat";
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
