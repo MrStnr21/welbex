@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/welbex/static/css/main.dde8aac4.css",
-    "main.js": "/welbex/static/js/main.4fcafd33.js",
+    "main.css": "/welbex/static/css/main.8be36376.css",
+    "main.js": "/welbex/static/js/main.3a4bd8c2.js",
     "static/js/787.08f9b020.chunk.js": "/welbex/static/js/787.08f9b020.chunk.js",
-    "static/media/Inter-Regular.ttf": "/welbex/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/Montserrat-Regular.ttf": "/welbex/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
     "static/media/background-mobile.png": "/welbex/static/media/background-mobile.89a2bdeb387537463e00.png",
     "static/media/logo_welbex.svg": "/welbex/static/media/logo_welbex.27138dbd60d7029458ade4c27660c15a.svg",
     "static/media/WhatsApp.svg": "/welbex/static/media/WhatsApp.cc6738612ffdbd1e04bfbb027a641ee1.svg",
@@ -15,12 +13,12 @@
     "static/media/purple_light.svg": "/welbex/static/media/purple_light.f56cd3688ba443c66ab7a533879fed3b.svg",
     "static/media/red_light.svg": "/welbex/static/media/red_light.3d1d5081f50e92e9bbc9e1f938225a53.svg",
     "static/media/Telegram.svg": "/welbex/static/media/Telegram.6f6f44ec9535a92a455d90d6f803cb6c.svg",
-    "main.dde8aac4.css.map": "/welbex/static/css/main.dde8aac4.css.map",
-    "main.4fcafd33.js.map": "/welbex/static/js/main.4fcafd33.js.map",
+    "main.8be36376.css.map": "/welbex/static/css/main.8be36376.css.map",
+    "main.3a4bd8c2.js.map": "/welbex/static/js/main.3a4bd8c2.js.map",
     "787.08f9b020.chunk.js.map": "/welbex/static/js/787.08f9b020.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dde8aac4.css",
-    "static/js/main.4fcafd33.js"
+    "static/css/main.8be36376.css",
+    "static/js/main.3a4bd8c2.js"
   ]
 }
