@@ -1,4 +1,14 @@
-@import "../src/fonts/fonts.css";
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
 
 body {
   margin: 0;
@@ -9,6 +19,6 @@ body {
 }
 
 code {
-  font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Inter", "Montserrat", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
