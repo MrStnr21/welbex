@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/welbex/static/css/main.7c12155d.css",
+    "main.css": "/welbex/static/css/main.4da97118.css",
     "main.js": "/welbex/static/js/main.3a4bd8c2.js",
     "static/js/787.08f9b020.chunk.js": "/welbex/static/js/787.08f9b020.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/welbex/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
@@ -16,12 +16,12 @@
     "static/media/purple_light.svg": "/welbex/static/media/purple_light.f56cd3688ba443c66ab7a533879fed3b.svg",
     "static/media/red_light.svg": "/welbex/static/media/red_light.3d1d5081f50e92e9bbc9e1f938225a53.svg",
     "static/media/Telegram.svg": "/welbex/static/media/Telegram.6f6f44ec9535a92a455d90d6f803cb6c.svg",
-    "main.7c12155d.css.map": "/welbex/static/css/main.7c12155d.css.map",
+    "main.4da97118.css.map": "/welbex/static/css/main.4da97118.css.map",
     "main.3a4bd8c2.js.map": "/welbex/static/js/main.3a4bd8c2.js.map",
     "787.08f9b020.chunk.js.map": "/welbex/static/js/787.08f9b020.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c12155d.css",
+    "static/css/main.4da97118.css",
     "static/js/main.3a4bd8c2.js"
   ]
 }
